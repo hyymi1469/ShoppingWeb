@@ -1,0 +1,66 @@
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+  .span-heart-none {
+    display: inline-block;
+    /*padding: 30px 30px; /* 숫자 값으로 수정 */
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    background-image: url('./../public/img/heart_none.svg');
+    background-size: cover; /* 이미지 크기 조절 */
+    cursor: pointer;
+    position: relative;
+    /*left: -10px;*/
+    /*top: -50px;*/
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .span-heart-none {
+    display: inline-block;
+    /*padding: 30px 30px; /* 숫자 값으로 수정 */
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    background-image: url('./../public/img/heart_none.svg');
+    background-size: cover; /* 이미지 크기 조절 */
+    cursor: pointer;
+    position: relative;
+    left:-50px;
+    top: -50px;
+  }
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+  .span-heart-fill {
+    display: inline-block;
+    /*padding: 30px 30px; /* 숫자 값으로 수정 */
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    background-image: url('./../public/img/heart_fill.svg');
+    background-size: cover; /* 이미지 크기 조절 */
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    top: -50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .span-heart-fill {
+    display: inline-block;
+    /*padding: 30px 30px; /* 숫자 값으로 수정 */
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    background-image: url('./../public/img/heart_fill.svg');
+    background-size: cover; /* 이미지 크기 조절 */
+    cursor: pointer;
+    position: relative;
+    left:-50px;
+    top: -50px;
+  }
+}

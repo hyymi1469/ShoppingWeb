@@ -1,0 +1,9 @@
+/* CSS 스타일링 */
+.star {
+	color: gray; /* 클릭하지 않은 별의 기본 색상 */
+	cursor: pointer;
+  }
+  
+  .filled {
+	color: gold; /* 클릭한 별의 색상 */
+  }

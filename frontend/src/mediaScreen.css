@@ -1,0 +1,834 @@
+
+@media only screen and (min-width: 770px) {
+.each-img {
+	width: 210px;
+	height: 230px;
+	/*border: 1px solid #e4e4e4;*/
+	margin-right: 20px;
+	cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.each-img {
+		width: 160px;
+		height: 180px;
+		/*border: 1px solid #e4e4e4;*/
+		margin-right: 0px;
+		margin-left: 0px;
+		cursor: pointer;
+	}
+}
+
+/*////////////////////////////*/
+@media only screen and (min-width: 770px) {
+.main-page-dir {
+	display: flex;
+	flex: 1;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  .main-page-dir {
+	/*display: flex;*/
+  }
+}
+
+/*///////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.bottom-center-list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		padding: 10px;
+		flex-wrap: wrap;
+		flex-basis: 60%;
+		flex: 4;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+	.bottom-center-list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex: 4;
+		margin-top: -70px;
+	}
+}
+
+/*///////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.bottom-center-pane {
+		flex-basis: 60%;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+	.bottom-center-pane {
+		
+	}
+}
+	
+/*///////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.description-style {
+		margin-bottom: 10px;
+		color: #585858;
+		font-size: 16px;
+		white-space: pre-line;
+		cursor: pointer;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+  .description-style {
+	margin-bottom: 0px;
+	color: #585858;
+	font-size: 15px;
+	/*white-space: pre-line;*/
+	word-wrap: break-word;
+	width: 1px; /* 예시로 가로 길이를 설정 */
+	cursor: pointer;
+	margin-left: 25px;
+  }
+}
+
+/*///////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.company-name-style {
+		margin-bottom: 10px;
+		color: #797979;
+		font-size: 16px;
+		white-space: pre-line;
+		cursor: pointer;
+		font-weight: bold;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+  .company-name-style {
+	margin-bottom: 0px;
+	color: #797979;
+	font-size: 15px;
+	white-space: pre-line;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 25px;
+  }
+}
+
+/*///////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.price-style {
+		margin-top: 10px;
+		color: #494949;
+		font-size: 18px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+  .price-style {
+	margin-top: 0px;
+	color: #494949;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 25px;
+  }
+}
+
+/*///////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.main-center-list {
+		display: flex;
+  		flex-direction: column;
+  		align-items: left;
+  		text-align: left;
+  		margin-top: 100px;
+  		height: 420px;
+  		width: 270px;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+  .main-center-list {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	text-align: center;
+  	margin-top: 100px;
+  	height: 350px;
+  	width: 180px;
+  }
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.main-logo-image-style {
+	  max-width: 100%; /* 이미지의 최대 너비를 부모 요소에 맞게 조절 */
+	/* width: 240px; */ /* 이미지 너비 조절 */
+	height: 170px; /* 이미지 높이 조절 */
+	/* border: 1px solid #e4e4e4; */ /* 얇은 테두리 추가 */
+	/* margin-right: 20px; */ /* 이미지들 간의 가로 간격 */
+	cursor: pointer;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.main-logo-image-style {
+	  max-width: 100%; /* 이미지의 최대 너비를 부모 요소에 맞게 조절 */
+	/* width: 240px; */ /* 이미지 너비 조절 */
+	height: 140px; /* 이미지 높이 조절 */
+	/* border: 1px solid #e4e4e4; */ /* 얇은 테두리 추가 */
+	/* margin-right: 20px; */ /* 이미지들 간의 가로 간격 */
+	cursor: pointer;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.search-input-style {
+		font-size: 16px;
+		border: none; /* 테두리 없애기 */
+		outline: none;
+		padding: 6px;
+		border-bottom: 2px solid black; /* 언더바 스타일 */
+		border-radius: 0; /* 언더바를 둥글게 하지 않도록 설정 */
+		width: 340px; /* 검색 인풋 창의 너비를 조절합니다 */
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.search-input-style {
+		font-size: 16px;
+		border: none; /* 테두리 없애기 */
+		outline: none;
+		padding: 6px;
+		border-bottom: 2px solid black; /* 언더바 스타일 */
+		border-radius: 0; /* 언더바를 둥글게 하지 않도록 설정 */
+		width: 250px; /* 검색 인풋 창의 너비를 조절합니다 */
+		margin-top: 10px;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.user-info-style {
+		max-width: 100%; /* 이미지의 최대 너비를 부모 요소에 맞게 조절 */
+  		width: 60px; /* 이미지 너비 조절 */
+  		height: 50px; /* 이미지 높이 조절 */
+  		margin-right: 20px; /* 이미지들 간의 가로 간격 */
+  		cursor: pointer;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.user-info-style {
+		max-width: 100%; /* 이미지의 최대 너비를 부모 요소에 맞게 조절 */
+  		width: 55px; /* 이미지 너비 조절 */
+  		height: 45px; /* 이미지 높이 조절 */
+  		margin-right: 10px; /* 이미지들 간의 가로 간격 */
+		margin-top: 30px;
+  		cursor: pointer;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.category-main-style {
+		color: black;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.category-main-style {
+		color: black;
+		font-size: 15px;
+		margin-right: 20px;
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.chart-list {
+		margin-top: 0px;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.chart-list {
+		margin-top: 30px;
+		margin-left: -5px;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.product-detail-page {
+		display: flex;
+		flex-direction: row;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.product-detail-page {
+		display: flex;
+		flex-direction: column;
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.product-main-size {
+		margin-left: 190px;
+		width: 400px;
+		height: 450px;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.product-main-size {
+		margin-top: 20px;
+		width: 100%;
+		height: 100%;
+		/*border: 1px solid #e4e4e4;*/
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.product-description-style {
+		text-align: left;
+		margin-left: 90px;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.product-description-style {
+		text-align: left;
+		margin-left: 20px;
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-product-name {
+		color: #797979;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.detail-product-name {
+		color: #797979;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-left-style {
+		 /* backgroundColor: '#f0f0f0', */
+		 padding: 20px;
+		 flex: 1;
+		 /* borderRight: '1px solid #ccc', */
+		 text-align: center;
+		 flex-basis: 20%; /* 가로로 4개의 이미지를 표시하려면 25%로 설정 */
+		 /* border: '1px solid #e4e4e4', */
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.detail-left-style {
+		
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.selected-option-style {
+		background-color: white;
+		padding: 10px;
+		margin: 5px;
+		border: 1px solid #ccc;
+		display: flex;
+		align-items: center;
+		width: 400px;
+		height: 35px;
+		border-radius: 5px;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.selected-option-style {
+		background-color: white;
+		padding: 10px;
+		margin: 5px;
+		border: 1px solid #ccc;
+		display: flex;
+		align-items: center;
+		width: 300px;
+		height: 35px;
+		border-radius: 5px;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-btn-style {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.detail-btn-style {
+		/*
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		*/
+		display: flex;
+		flex-direction: row;
+		position:fixed;
+		
+		z-index: 1000; /* 다른 요소보다 위에 표시되도록 설정 */
+		
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.shopping-bag-btn-style {
+		/*marginLeft: 90px;*/
+		font-size: 15px;
+		background: #585858;
+		color: #fff;
+		padding: 20px 40px;
+		border: none;
+		/*borderRadius: 5px;*/
+		cursor: pointer;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.shopping-bag-btn-style {
+		position:fixed;
+		top: 93.5%;
+		left: 22%;
+		font-size: 14px;
+		background: #585858;
+		color: #fff;
+		
+		height: 45px;
+		width: 120px;
+		border: none;
+		cursor: pointer;
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.buy-btn-style {
+		margin-left: 30px;
+		font-size: 15px;
+		background: #000;
+		color: #fff;
+		padding: 20px 40px;
+		border: none;
+		/*borderRadius: 5px;*/
+		cursor: pointer;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.buy-btn-style {
+		position:fixed;
+		top: 93.5%;
+		left: 55%;
+
+		font-size: 14px;
+		background: #000;
+		color: #fff;
+		
+		height: 45px;
+		width: 160px;
+		border: none;
+		cursor: pointer;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-hyphen {
+		margin-left: 0px;
+		margin-bottom: 40px;
+		border-bottom: 1px solid #000;
+		width: 1000px;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.detail-hyphen {
+		/*
+		margin-bottom: 40px;
+		border-bottom: 1px solid #000;
+		width: 300px;
+		margin-top: 20px;
+		*/
+		
+		margin-top: 0px;
+		margin-bottom: 20px;
+		background-color : rgb(235, 235, 235);
+		margin-left: -160px;
+		width: 138vw;
+		height : 10px;
+		border : 0;
+	}
+  }
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-img-reduce-style {
+		margin-left: 0px;
+		width: 900px;
+		height: 550px;
+		margin-bottom: 0px;
+		object-fit: cover;
+		object-position: top;
+	}
+  }
+  
+@media only screen and (max-width: 768px) {
+	.detail-img-reduce-style {
+		width: 100%;
+		height: 400px;
+		margin-bottom: 0px;
+		object-fit: cover;
+		object-position: top;
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.rolling-reduce-btn {
+		width: 1000px;
+		height: 60px;
+		border: 1px solid #585858;
+		background: white; /* 선택 사항: 배경색 지정 */
+		color: #424242; /* 선택 사항: 텍스트 색상 지정 */
+		border-radius: 2px; /* 버튼을 둥글게 만들기 위한 속성 */
+		font-weight: bold;
+		font-size: 19px;
+		
+	}
+  }
+  
+@media only screen and (max-width: 768px) {
+	.rolling-reduce-btn {
+		width: 300px;
+		height: 40px;
+		border: 1px solid #585858;
+		background: white; /* 선택 사항: 배경색 지정 */
+		color: #424242; /* 선택 사항: 텍스트 색상 지정 */
+		border-radius: 2px; /* 버튼을 둥글게 만들기 위한 속성 */
+		font-weight: bold;
+		font-size: 19px;
+		
+	}
+  }
+  
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-img-style {
+		margin-left: 0px;
+		width: 900px;
+		margin-bottom: 0px;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.detail-img-style {
+		width: 100%;
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-msg {
+		position: relative;
+		left: 120px;
+		top: -40px;
+		white-space: pre-line;
+		max-width: 62ch;
+		overflow-wrap: break-word; /* 또는 word-wrap: break-word; 사용 가능 */
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-msg {
+		
+		
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-window {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-window {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.avg-grade {
+		margin-bottom: 20px;
+		margin-left: -880px;
+		margin-top: 100px;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.avg-grade {
+		margin-bottom: 20px;
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-stars {
+		margin-left: 120px;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-stars {
+		margin-left: 0px;
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.detail-review-hyphen {
+		margin-left: 190px;
+		margin-top: 0;
+		margin-bottom: 20px;
+		border-bottom: 0 solid grey; /* 테두리가 없는 경우 */
+		width: 1000px;
+		position: relative;
+		left: -100px;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.detail-review-hyphen {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background-color : rgb(235, 235, 235);
+		
+		width: 100%;
+		height : 10px;
+		border : 0;
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-option {
+		position: relative;
+		left: 400px;
+		top: 0px;
+		width: max-content;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-option {
+		position: relative;
+		top: 5px;
+		/*border: 1px solid #000000;*/
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-date {
+		position: relative;
+		left: 800px;
+		top: -20px;
+		width: max-content;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-date {
+		position: relative;
+		left: 60%;
+		top: -45px;
+		width: max-content;
+		
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.option-text {
+		position: relative;
+		left: 120px;
+		top: -30px;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.option-text {
+		/*
+		position: relative;
+		left: 150px;
+		top: -30px;
+		width: max-content;
+		*/
+		/*border: 1px solid #000000;*/
+	}
+}
+
+/*/////////////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-contents-list {
+		display: flex;
+		white-space: nowrap; /* 자식 요소가 가로로 나란히 나열되도록 설정 */
+		margin-left: 110px;
+		margin-bottom: 50px;
+		margin-top: -20px;		
+	}
+	  
+	.review-contents-list img,
+	.review-contents-list video {
+		width: 170px;
+		height: 120px;
+		object-fit: cover;
+		margin-right: 5px;
+		border: 1px solid #ddd; /* 이미지와 비디오에 테두리를 추가하였습니다. 테두리를 통해 크기를 더 쉽게 확인할 수 있습니다. */
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-contents-list {
+		display: flex;
+		white-space: nowrap; /* 자식 요소가 가로로 나란히 나열되도록 설정 */
+		margin-left: 10px;
+		margin-bottom: 50px;
+
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	  
+	.review-contents-list img,
+	.review-contents-list video {
+		width: 170px;
+		height: 120px;
+		object-fit: cover;
+		margin-right: 0px;
+		/*border: 1px solid #ffffff;*/
+	}
+}
+
+
+/*/////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.review-media-contents {
+		
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.review-media-contents {
+		margin-top: 10px;
+	}
+}
+
+/*/////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.img-detail-calss {
+		padding: 20px;
+		max-width: 850px;
+		margin: auto;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.img-detail-calss {
+		padding: 20px;
+		max-width: 850px;
+		margin: auto;
+	}
+}
+
+/*/////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.img-detail-overlay {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.img-detail-overlay {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+/*/////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.modal-detail-img {
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.modal-detail-img {
+		margin-top: 50px;
+		width: 80%;
+		height: 100%;
+		pointer-events: none;
+	}
+}
+
+/*/////////////////////////////////*/
+@media only screen and (min-width: 770px) {
+	.modal-video-style {
+		width: 720px;
+		height: 480px;
+		margin-left: 40px;
+		margin-top: 40px;
+	}
+}
+  
+@media only screen and (max-width: 768px) {
+	.modal-video-style {
+		width: 100%;
+		height: 100%;
+		
+		margin-top: 40px;
+	}
+}
+
