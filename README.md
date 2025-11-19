@@ -7,3 +7,4 @@ http://3.39.225.205/
 * React
 * Mysql
 * AWS EC2
+* nginx-1.28.0
