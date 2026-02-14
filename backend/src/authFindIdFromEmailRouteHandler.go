@@ -26,8 +26,8 @@ func AuthFindIdFromEmailRouteHandler(c *fiber.Ctx) error {
 	}
 
 	// 사용자의 Gmail 계정 정보
-	gmailUsername := "hyymi1469@gmail.com" // test ymi 나중에 회사 메일로 매핑
-	gmailPassword := "vdkz newd qjxk ifyi"
+	gmailUsername := "" // test ymi 나중에 회사 메일로 매핑
+	gmailPassword := "" //
 	//vdkz newd qjxk ifyi
 
 	// 수신자 이메일 주소
