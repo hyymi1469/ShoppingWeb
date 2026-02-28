@@ -15,7 +15,7 @@
 - Token & refresh 방식으로 로그인 유지
 - 구매 후 댓글로 후기 및 동영상 업로드, 이미지 업로드 할 수 있도록 구현
 - go루틴(코루틴) 사용으로 성능 극대화
-- AWS EC2에 직접 서비스 확인(현재 비용문제로 닫음)
+- AWS EC2에 직접 서비스 확인(현재 서버 반납)
 
 <img width="1055" height="579" alt="image" src="https://github.com/user-attachments/assets/c3374873-adbe-4f77-a467-25e142bb925e" />
 
